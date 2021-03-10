@@ -1,9 +1,11 @@
 function setup() {
   createCanvas(800, 600);
+  background(255);
+  noStroke();
 }
 
 function draw() {
-  background(255,255,255);
+
   if (mouseIsPressed) {
     fill(0);
   } else {
